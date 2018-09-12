@@ -5,4 +5,7 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
-deploy
+
+node_modules
+build
+.cache

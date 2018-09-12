@@ -1,0 +1,97 @@
+html, body {
+margin: 0;
+background: #fff;
+color: #2c2c2c;
+
+font-family: Verdana, sans-serif;
+font-size: 22px;
+}
+
+body {
+border: solid #788084;
+border-width: 4px 0 0;
+}
+
+a, a:link, a:visited, a:hover {
+color: #2c2c2c;
+outline: none;
+cursor: pointer;
+}
+
+a:focus { outline: none; }
+
+/*div*/.wrap {
+margin-left: auto;
+margin-right: auto;
+
+padding: 32px 0;
+
+width: 384px;
+max-width: 100%;
+}
+
+/*figure*/.avatar {
+  margin: 0 auto;
+  padding: 16px 0;
+
+  width: 88px;
+}
+
+  /*figure*/.avatar img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+/*section*/.bio {
+  padding: 16px;
+
+  text-align: center;
+}
+  
+  /*section*/.bio p {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  /*section*/.bio p:last-child {
+    margin-bottom: 0;
+  }
+
+/*nav*/.links {
+  padding: 16px 0;
+  
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-align: center;
+    
+    li {
+      display: inline-block;
+    }
+
+    li a,
+    li a:visited,
+    li a:hover {
+      display: block;
+      margin: 0 16px;
+
+      width: 32px;
+      height: 32px;
+
+      background-color: transparent;
+      background-position: 50% 50%;
+      background-repeat: none;
+
+      text-indent: -9000px;
+    }
+
+    /*a*/.twitter { background-image: url('./images/twitter.png'); }
+    /*a*/.instagram { background-image: url('./images/instagram.png'); }
+    /*a*/.github { background-image: url('./images/github.png'); }
+  }
+}

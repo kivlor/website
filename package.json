@@ -1,0 +1,27 @@
+{
+  "name": "@kivlor/website",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "parcel build --out-dir build/ src/index.html",
+    "start": "parcel serve --out-dir build/ --port 8080 src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kivlor/website.git"
+  },
+  "author": "Andrew Gallagher <hello@kivlor.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://gitlab.com/kivlor/website/issues"
+  },
+  "homepage": "https://gitlab.com/kivlor/website#readme",
+  "dependencies": {
+    "parcel": "^1.9.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
