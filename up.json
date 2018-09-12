@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "profile": "up-deploy",
+  "regions": [ "ap-southeast-2" ],
+  "type": "static",
+  "static": {
+    "dir": "build"
+  },
+  "hooks": {
+    "build": "npm run build -- --public-url /staging",
+    "clean": "rm -fr build"
+  }
+}
