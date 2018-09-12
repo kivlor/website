@@ -19,9 +19,12 @@
   },
   "homepage": "https://gitlab.com/kivlor/website#readme",
   "dependencies": {
-    "parcel": "^1.9.7"
+    "parcel": "^1.9.7",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
   },
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.9.3",
+    "typescript": "^3.0.3"
   }
 }
