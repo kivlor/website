@@ -9,5 +9,19 @@
   "hooks": {
     "build": "npm run build -- --public-url /staging",
     "clean": "rm -fr build"
+  },
+  "stages": {
+    "staging": {
+      "domain": "staging.kivlor.com",
+      "hooks": {
+        "build": "npm run build"
+      }
+    },
+    "production": {
+      "domain": "kivlor.com",
+      "hooks": {
+        "build": "npm run build"
+      }
+    }
   }
 }
