@@ -1,14 +1,14 @@
 import * as React from 'react';
 
-import { Avatar } from './Avatar';
 import { Bio } from './Bio';
 import { Social } from './Social';
+import { Voxels } from './Voxels';
 
 export class App extends React.PureComponent {
   render () {
     return (
       <React.Fragment>
-        <Avatar />
+        <Voxels />
         <Bio />
         <Social />
       </React.Fragment>
