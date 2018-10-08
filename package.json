@@ -4,7 +4,7 @@
   "description": "my personal website",
   "main": "src/index.html",
   "scripts": {
-    "build": "parcel build --out-dir build/ src/index.html",
+    "build": "rm -rf build/ && parcel build --out-dir build/ src/index.html",
     "start": "parcel serve --out-dir build/ --port 8080 src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
