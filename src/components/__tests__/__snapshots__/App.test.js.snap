@@ -30,6 +30,15 @@ Array [
     <ul>
       <li>
         <a
+          className="gitlab"
+          href="http://gitlab.com/kivlor"
+          target="_blank"
+        >
+          gitlab
+        </a>
+      </li>
+      <li>
+        <a
           className="github"
           href="http://github.com/kivlor"
           target="_blank"
@@ -44,15 +53,6 @@ Array [
           target="_blank"
         >
           instagram
-        </a>
-      </li>
-      <li>
-        <a
-          className="twitter"
-          href="http://twitter.com/kivlor"
-          target="_blank"
-        >
-          twitter
         </a>
       </li>
     </ul>
