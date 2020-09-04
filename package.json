@@ -28,7 +28,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-jest": "^24.4.0",
     "jest": "^24.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "parcel": "^1.12.0",
     "react-test-renderer": "^16.8.4",
     "sass": "^1.22.9"
