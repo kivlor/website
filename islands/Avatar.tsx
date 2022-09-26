@@ -19,7 +19,7 @@ export default function Avatar() {
   }
 
   return (
-    <figure class={`m-auto rounded-full w-40 md:w-48 h-40 md:h-48 ${background} transition-colors duration-300`}>
+    <figure class={`m-auto rounded-full w-40 md:w-48 h-40 md:h-48 ${background} transition-colors`}>
       <img src={asset('/avatar.png')} alt="Kivlor" />
     </figure>
   );
