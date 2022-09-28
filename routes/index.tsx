@@ -3,14 +3,11 @@
 import Bio from '../components/Bio.tsx';
 import Avatar from '../islands/Avatar.tsx';
 import Links from '../islands/Links.tsx';
-import LoadingBar from '../islands/LoadingBar.tsx';
 
 export default function Home() {
   return (
     <>
-      <LoadingBar />
-
-      <main class="py-4 md:py-8">
+      <main class="py-4 md:py-8 border-t-4 border-green-100">
         <section class="py-8">
           <Avatar />
         </section>
