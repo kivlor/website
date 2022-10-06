@@ -9,7 +9,7 @@ export default function App({ Component }: AppProps) {
   return (
     <>
       <Head>
-        <title>Maker, Coder, Tourist, Geek.</title>
+        <title>Maker, Coder, Dad, Geek.</title>
 
         <link rel="stylesheet" type="text/css" href="/app.css" />
 
