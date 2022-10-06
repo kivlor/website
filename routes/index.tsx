@@ -13,7 +13,7 @@ export default function Index() {
       <Lightbar />
 
       <div class="m-auto py-4 md:max-w-3xl">
-        <header class="md:flex md:items-center md:space-x-8">
+        <header>
           <section class="py-4">
             <Avatar />
           </section>
