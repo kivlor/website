@@ -8,7 +8,7 @@ export default function Bio() {
       </p>
 
       <p class="mb-2 font-light text-center text-gray-600 dark:text-gray-200 text-xl">
-        Maker, Coder, Dad, Geek.
+        Maker, Coder, Tourist, Geek
       </p>
     </div>
   );
