@@ -7,6 +7,8 @@ import Lightbar from "../islands/Lightbar.tsx";
 import Links from "../islands/Links.tsx";
 
 export default function Index() {
+  const foo: string = 'bar';
+
   return (
     <div>
       <Lightbar />
