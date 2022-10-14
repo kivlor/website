@@ -4,7 +4,7 @@ import { hovering } from "../utils/state.ts";
 
 export default function Links() {
   return (
-    <nav class="flex justify-center space-x-4 py-4 md:py-2">
+    <nav class="flex justify-center space-x-6 py-4">
       <a
         href="http://github.com/kivlor"
         target="_blank"
