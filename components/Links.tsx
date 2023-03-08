@@ -1,7 +1,5 @@
 /** @jsxImportSource preact */
 
-import { hovering } from "../utils/state.ts";
-
 export default function Links() {
   return (
     <nav class="flex justify-center space-x-6 py-4">
@@ -9,12 +7,6 @@ export default function Links() {
         href="http://github.com/kivlor"
         target="_blank"
         alt="github"
-        onMouseOver={() => {
-          hovering.value = "github";
-        }}
-        onMouseOut={() => {
-          hovering.value = "";
-        }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -30,12 +22,6 @@ export default function Links() {
         href="http://instagram.com/kivlor"
         target="_blank"
         alt="instagram"
-        onMouseOver={() => {
-          hovering.value = "instagram";
-        }}
-        onMouseOut={() => {
-          hovering.value = "";
-        }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -51,12 +37,6 @@ export default function Links() {
         href="https://www.linkedin.com/in/andrew-gallagher-a09218250"
         target="_blank"
         alt="linkedin"
-        onMouseOver={() => {
-          hovering.value = "linkedin";
-        }}
-        onMouseOut={() => {
-          hovering.value = "";
-        }}
       >
         <svg
           mlns="http://www.w3.org/2000/svg"

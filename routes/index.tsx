@@ -2,9 +2,8 @@
 
 import Avatar from "../components/Avatar.tsx";
 import Bio from "../components/Bio.tsx";
-
-import Lightbar from "../islands/Lightbar.tsx";
-import Links from "../islands/Links.tsx";
+import Lightbar from "../components/Lightbar.tsx";
+import Links from "../components/Links.tsx";
 
 export default function Index() {
   return (
