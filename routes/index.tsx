@@ -11,11 +11,9 @@ export default function Index() {
       <Lightbar />
 
       <div class="m-auto md:max-w-3xl">
-        <header class="py-4">
-          <Avatar />
-          <Bio />
-          <Links />
-        </header>
+        <Avatar />
+        <Bio />
+        <Links />
       </div>
     </div>
   );
