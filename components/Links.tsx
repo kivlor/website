@@ -1,5 +1,3 @@
-/** @jsxImportSource preact */
-
 export default function Links() {
   return (
     <nav class="flex justify-center space-x-6 py-4">
