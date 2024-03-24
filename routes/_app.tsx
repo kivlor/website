@@ -11,9 +11,10 @@ export default function App({ Component }: PageProps) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Andrew Gallagher, aka Kivlor</title>
-        <link rel="stylesheet" href="/styles.css" />
+
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="stylesheet" href="/styles.css" />
 
         {plausibleSite && (<script defer data-domain={plausibleSite} src="https://plausible.io/js/plausible.js"></script>)}
       </head>
