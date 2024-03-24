@@ -6,7 +6,7 @@ export default function Resume() {
   const { basics, work } = resume;
 
   return (
-    <div class="mx-auto mt-8 print:mt-0 p-6 print:p-0 md:max-w-3xl bg-white rounded-t-lg shadow-lg animate-slide-up">
+    <div class="mx-1 md:mx-auto mt-8 print:mt-0 p-6 print:p-0 md:max-w-3xl bg-white rounded-t-lg shadow-lg animate-slide-up">
       <header class="mb-4 flex justify-between">
         <div>
           <h1 class="mb-1 font-bold font-sans text-2xl">{basics.name}</h1>
@@ -19,7 +19,7 @@ export default function Resume() {
           </nav>
         </div>
 
-        <figure class="w-28 h-28 bg-gray-300 rounded-lg">
+        <figure class="w-20 md:w-28 h-20 md:h-28 bg-gray-300 rounded-lg">
           <img src={asset("/avatar.png")} alt="Kivlor" />
         </figure>
       </header>
@@ -45,7 +45,7 @@ export default function Resume() {
             </p>
             <ul class="mb-2 flex flex-wrap items-start">
               {job.highlights.map((highlight) => (
-                <li class="mr-1 px-1 py-0.5 text-xs bg-slate-200 text-slate-600 rounded">{highlight}</li>
+                <li class="mr-1 mb-1 px-1 py-0.5 text-xs bg-slate-200 text-slate-600 rounded">{highlight}</li>
               ))}
             </ul>
           </div>
