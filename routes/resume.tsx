@@ -61,10 +61,6 @@ export default function Resume() {
         ))}
       </section>
 
-      <section class="mb-4">
-        <h3 class="mb-2 font-bold font-sans text-xl">Interests</h3>
-      </section>
-
       <PageMenu />
     </div>
   );
