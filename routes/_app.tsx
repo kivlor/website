@@ -1,4 +1,5 @@
 import { type PageProps } from "$fresh/server.ts";
+import { Partial } from "$fresh/runtime.ts";
 
 import Lightbar from "../components/Lightbar.tsx";
 
@@ -18,10 +19,13 @@ export default function App({ Component }: PageProps) {
 
         {plausibleSite && (<script defer data-domain={plausibleSite} src="https://plausible.io/js/plausible.js"></script>)}
       </head>
-      <body>
+      <body f-client-nav>
         <div>
           <Lightbar />
-          <Component />
+
+          <Partial name="body">
+            <Component />
+          </Partial>
         </div>
       </body>
     </html>

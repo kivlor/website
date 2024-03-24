@@ -48,6 +48,7 @@ export default function Links() {
 
       <a
         href="/resume"
+        f-partial="/partials/resume"
         alt="resume"
       >
         <svg
