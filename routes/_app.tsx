@@ -1,5 +1,7 @@
 import { type PageProps } from "$fresh/server.ts";
 
+import Lightbar from "../components/Lightbar.tsx";
+
 export default function App({ Component }: PageProps) {
   const plausibleSite = Deno.env.get("PLAUSIBLE_SITE");
 
@@ -16,7 +18,10 @@ export default function App({ Component }: PageProps) {
         {plausibleSite && (<script defer data-domain={plausibleSite} src="https://plausible.io/js/plausible.js"></script>)}
       </head>
       <body>
-        <Component />
+        <div>
+          <Lightbar />
+          <Component />
+        </div>
       </body>
     </html>
   );
