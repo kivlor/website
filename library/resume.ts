@@ -123,15 +123,15 @@ export const resume: Resume = {
       position: "Senior Software Developer",
       startDate: "2015-07",
       endDate: "2021-09",
-      summary: "I oversaw the technical aspects of web projects, including planning, design, testing, and deployment. Initially, I joined as a Senior Developer to rebuild the proprietary CMS using MVC architecture with PHP/MySQL. Later, we diversified into projects using Laravel, Wordpress, and ExpressionEngine. Finally, I introduced Gitlab and optimised workflows for the team, and contributed to the company blog on topics like the importance of GitHub accounts and building custom CSS frameworks.",
-      highlights: [ "php/symphony", "typescript/react", "lua", "aws lambda", "dynamodb", "nginx", "cloudformation", "git", "ci/cd" ]
+      summary: "I began at Temando creating integrations with third-party carrier APIs. We used these integrations to later create a real-time package tracker in Go. With that knowledge, I wrote a base carrier integration in Node.js/serverless. I traveled to Vietnam and the US helping other teams write integrations using the base integration. I finished out my time at Temando by building an API gateway in NGINX/Lua and packaging it as pre-built AMIs to deploy to AWS ELB.",
+      highlights: [ "php/symphony", "typescript/react", "lua", "aws lambda", "dynamodb", "nginx", "aws elb", "cloudformation", "git", "ci/cd" ]
     },
     {
       name: "Klyp",
       position: "Technical Lead",
       startDate: "2013-05",
       endDate: "2015-05",
-      summary: "I led the development of a social web app using CodeIgniter for the back-end, MongoDB as the data store, and SpineJS for the front-end, with significant usage of SASS and CoffeeScript. Additionally, I contributed to various MVP projects, notably a high-traffic file-sharing site similar to WeTransfer, employing CodeIgniter with MySQL. Another engaging project was Forge, a CMS resembling SquareSpace, built on Sinatra with MySQL and DataMapper ORM. In Forge, I primarily focused on the front-end, where I developed a responsive CSS framework. Occasionally, I also assisted in maintaining FileFactory, a longstanding file-sharing platform, addressing support requests and aiding in a redesign.",
+      summary: "I oversaw the technical aspects of web projects, including planning, design, testing, and deployment. Initially, I joined as a Senior Developer to rebuild the proprietary CMS using MVC architecture with PHP/MySQL. Later, we diversified into projects using Laravel, Wordpress, and ExpressionEngine. Finally, I introduced Gitlab and optimised workflows for the team, and contributed to the company blog on topics like the importance of GitHub accounts and building custom CSS frameworks.",
       highlights: [ "php/laravel", "javascript/gulp", "html/css", "git" ]
     },
     {
@@ -139,7 +139,7 @@ export const resume: Resume = {
       position: "Senior Software Developer",
       startDate: "2011-09",
       endDate: "2013-04",
-      summary: "My role mainly involved enhancing the proprietary CMS and crafting client websites, often handling both development and design aspects. The CMS adhered to MVC architecture with view files utilising the Smarty templating engine, and I maintained strict adherence to HTML/CSS standards to ensure error-free parsing. Additionally, I created various CMS modules, including a versatile e-commerce module supporting multiple payment gateways. Working with local, national, and international clients broadened my experience, and I adapted quickly to Unix-based systems, mastering shell prompt operations.",
+      summary: "I led the development of a social web app using CodeIgniter for the back-end, MongoDB as the data store, and SpineJS for the front-end, with significant usage of SASS and CoffeeScript. Additionally, I contributed to various MVP projects, notably a high-traffic file-sharing site similar to WeTransfer, employing CodeIgniter with MySQL. Another engaging project was Forge, a CMS resembling SquareSpace, built on Sinatra with MySQL and DataMapper ORM. In Forge, I primarily focused on the front-end, where I developed a responsive CSS framework. Occasionally, I also assisted in maintaining FileFactory, a longstanding file-sharing platform, addressing support requests and aiding in a redesign.",
       highlights: [ "php/codeignitor", "ruby/sinatra", "coffeescript/spine", "html/css", "mysql", "mongodb", "git" ]
     },
     {
