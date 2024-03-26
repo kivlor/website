@@ -33,7 +33,7 @@ export default function Resume() {
                 <span class="mx-1 text-slate-600">
                   /
                 </span>
-                <a href="/" alt="home">
+                <a href={basics.url} alt="home">
                   {basics.url}
                 </a>
               </p>
