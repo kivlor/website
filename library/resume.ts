@@ -128,7 +128,7 @@ export const resume: Resume = {
     },
     {
       name: "Klyp",
-      position: "Senior Software Developer",
+      position: "Technical Lead",
       startDate: "2013-05",
       endDate: "2015-05",
       summary: "I led the development of a social web app using CodeIgniter for the back-end, MongoDB as the data store, and SpineJS for the front-end, with significant usage of SASS and CoffeeScript. Additionally, I contributed to various MVP projects, notably a high-traffic file-sharing site similar to WeTransfer, employing CodeIgniter with MySQL. Another engaging project was Forge, a CMS resembling SquareSpace, built on Sinatra with MySQL and DataMapper ORM. In Forge, I primarily focused on the front-end, where I developed a responsive CSS framework. Occasionally, I also assisted in maintaining FileFactory, a longstanding file-sharing platform, addressing support requests and aiding in a redesign.",
