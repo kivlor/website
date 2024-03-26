@@ -12,18 +12,30 @@ export default function Resume() {
       <header class="mb-4">
         <div class="flex justify-between">
           <div>
-            <h1 class="mb-1 font-bold font-sans text-2xl">{basics.name}</h1>
-            <h2 class="font-mono text-sm text-slate-600 tracking-tight">{basics.label}</h2>
+            <h1 class="mb-1 font-bold font-sans text-2xl">
+              {basics.name}
+            </h1>
+            
+            <h2 class="font-mono text-sm text-slate-600 tracking-tight">
+              {basics.label}
+            </h2>
 
             <p class="mb-4 font-mono text-xs text-slate-600 tracking-tight">
-              {basics.location.city} {basics.location.region}, {basics.location.countryCode}
+              {basics.location.city} {basics.location.region},{' '}
+              {basics.location.countryCode}
             </p>
 
             <nav>
               <p class="font-mono text-xs text-blue-600">
-                <a href={`mailto:${basics.email}`} alt="email">{basics.email}</a>
-                <span class="mx-1 text-slate-600">/</span>
-                <a href="/" alt="/">{basics.url}</a>
+                <a href={`mailto:${basics.email}`} alt="email">
+                  {basics.email}
+                </a>
+                <span class="mx-1 text-slate-600">
+                  /
+                </span>
+                <a href="/" alt="home">
+                  {basics.url}
+                </a>
               </p>
             </nav>
           </div>
@@ -35,12 +47,18 @@ export default function Resume() {
       </header>
 
       <section class="mb-4 break-inside-avoid">
-        <h3 class="mb-2 font-bold font-sans text-xl">About</h3>
-        <p class="font-mono text-sm text-slate-600 leading-5 tracking-tight">{basics.summary}</p>
+        <h3 class="mb-2 font-bold font-sans text-xl">
+          About
+        </h3>
+        <p class="font-mono text-sm text-slate-600 leading-5 tracking-tight">
+          {basics.summary}
+        </p>
       </section>
 
       <section class="mb-4 break-inside-avoid">
-        <h3 class="mb-2 font-bold font-sans text-xl">Experience</h3>
+        <h3 class="mb-2 font-bold font-sans text-xl">
+          Experience
+        </h3>
 
         {work.map((job) => (
           <div class="mb-4">
@@ -51,6 +69,7 @@ export default function Resume() {
             <p class="mb-2 font-sans text-base">
               {job.position} <span class="block md:float-end font-light text-sm text-slate-600">{job.startDate}{job.endDate && ` to ${job.endDate}`}</span>
             </p>
+
             <p class="mb-2 font-mono text-sm text-slate-600 leading-5 tracking-tight">
               {job.summary}
             </p>
@@ -72,9 +91,6 @@ export default function Resume() {
             <Keywords keywords={skill.keywords} />
           </div>
         ))}
-      </section>
-
-      <section class="mb-4 break-inside-avoid">
       </section>
       
       <div class="py-4">

@@ -4,21 +4,21 @@ export default function PageMenu() {
   const handleDownload = (event: MouseEvent) => {
     event.preventDefault();
     window.open(asset("/resume.pdf"), "_blank");
-  }
+  };
 
   const handlePrint = (event: MouseEvent) => {
     event.preventDefault();
     window.print();
-  }
+  };
 
   const handleSend = (event: MouseEvent) => {
     event.preventDefault();
 
-    const subject = "Check out Andrew's resume!"
-    const body = new URL(document.baseURI).href
+    const subject = "Check out Andrew's resume!";
+    const body = new URL(document.baseURI).href;
 
     window.open(`mailto:?subject=${subject}&body=${body}`, "_blank");
-  }
+  };
 
   return (
     <menu class="mx-auto flex justify-center print:hidden">
