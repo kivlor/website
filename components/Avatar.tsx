@@ -1,5 +1,3 @@
-/** @jsxImportSource preact */
-
 import { asset } from "$fresh/runtime.ts";
 
 export default function Avatar() {

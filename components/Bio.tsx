@@ -1,5 +1,3 @@
-/** @jsxImportSource preact */
-
 export default function Bio() {
   return (
     <div class="py-4">

@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  background-color: #ffffff;
+  background-color: #fefefe;
   background-image: url('/bg.png');
   background-repeat: repeat;
   background-size: 40px 40px;
@@ -9,5 +13,12 @@ body {
   body {
     background-color: #111827;
     background-image: url('/bg-dark.png');
+  }
+}
+
+@media print {
+  body {
+    background-color: #ffffff;
+    background-image: none;
   }
 }
