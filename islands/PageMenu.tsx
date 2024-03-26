@@ -15,7 +15,7 @@ export default function PageMenu() {
     event.preventDefault();
 
     const subject = "Check out Andrew's resume!"
-    const body = new URL("#email-link", document.baseURI).href
+    const body = new URL(document.baseURI).href
 
     window.open(`mailto:?subject=${subject}&body=${body}`, "_blank");
   }
