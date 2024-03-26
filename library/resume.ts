@@ -107,7 +107,7 @@ export const resume: Resume = {
       position: "Technical Lead",
       startDate: "2021-09",
       endDate: "now",
-      summary: "I initially led the integration of the Notiv web app with Dubber's call platform after Notiv was acquired. This required moving deployments to Kubernetes and ingesting AI and call data from Kafka. From there, our team rebranded to Notes and developed an MS Teams app on top of Dubber's MS Teams recorder. I then took on the Tech Lead role for a new team working to move service activation and management into separate microservices built with .NET and DynamoDB.",
+      summary: "I initially led the integration of the Notiv web app with Dubber's call platform after Notiv was acquired. This required moving deployments to Kubernetes and ingesting AI and call data from Kafka. From there, our team rebranded to Notes and developed an MS Teams app on top of Dubber's MS Teams recorder. I then took on the Tech Lead role for a new team working to move service activation and management into separate micro-services built with .NET and DynamoDB.",
       highlights: [ "ruby/rails", "typescript/react", "postgresql", "dynamodb", "redis", "kafka", "docker", "kubernetes", "terraform", "git", "ci/cd" ]
     },
     {
@@ -115,7 +115,7 @@ export const resume: Resume = {
       position: "Senior Software Developer",
       startDate: "2019-09",
       endDate: "2021-09",
-      summary: "I joined Notiv in early startup mode and quickly had to re-learn Rails while also tackling front-end tasks for both web and mobile. I spent time early on containerizing the web app, allowing us to move deployments from Heroku to AWS ECS for clients requiring data sovereignty. My later projects involved working with the AI team to integrate new features such as live transcription (utilising PostgreSQL notifications) and speaker identification (utilising AI data stored in S3).",
+      summary: "I joined Notiv in early startup mode and quickly had to re-learn Rails while also tackling front-end tasks for both web and mobile. I spent time early on containerising the web app, allowing us to move deployments from Heroku to AWS ECS for clients requiring data sovereignty. My later projects involved working with the AI team to integrate new features such as live transcription (utilising PostgreSQL notifications) and speaker identification (utilising AI data stored in S3).",
       highlights: [ "ruby/rails", "typescript/react", "postgresql", "redis", "heroku", "docker", "aws ecs", "terraform", "git", "ci/cd" ]
     },
     {
@@ -139,7 +139,7 @@ export const resume: Resume = {
       position: "Senior Software Developer",
       startDate: "2011-09",
       endDate: "2013-04",
-      summary: "My role mainly involved enhancing the proprietary CMS and crafting client websites, often handling both development and design aspects. The CMS adhered to MVC architecture with view files utilizing the Smarty templating engine, and I maintained strict adherence to HTML/CSS standards to ensure error-free parsing. Additionally, I created various CMS modules, including a versatile e-commerce module supporting multiple payment gateways. Working with local, national, and international clients broadened my experience, and I adapted quickly to Unix-based systems, mastering shell prompt operations.",
+      summary: "My role mainly involved enhancing the proprietary CMS and crafting client websites, often handling both development and design aspects. The CMS adhered to MVC architecture with view files utilising the Smarty templating engine, and I maintained strict adherence to HTML/CSS standards to ensure error-free parsing. Additionally, I created various CMS modules, including a versatile e-commerce module supporting multiple payment gateways. Working with local, national, and international clients broadened my experience, and I adapted quickly to Unix-based systems, mastering shell prompt operations.",
       highlights: [ "php/codeignitor", "ruby/sinatra", "coffeescript/spine", "html/css", "mysql", "mongodb", "git" ]
     },
     {
@@ -147,7 +147,7 @@ export const resume: Resume = {
       position: "Software Developer",
       startDate: "2009-12",
       endDate: "2011-09",
-      summary: "My role mainly involved enhancing the proprietary CMS and crafting client websites, often handling both development and design aspects. The CMS adhered to MVC architecture with view files utilizing the Smarty templating engine, and I maintained strict adherence to XHTML/CSS standards to ensure error-free parsing. Additionally, I created various CMS modules, including a versatile e-commerce module supporting multiple payment gateways.",
+      summary: "My role mainly involved enhancing the proprietary CMS and crafting client websites, often handling both development and design aspects. The CMS adhered to MVC architecture with view files utilising the Smarty templating engine, and I maintained strict adherence to XHTML/CSS standards to ensure error-free parsing. Additionally, I created various CMS modules, including a versatile e-commerce module supporting multiple payment gateways.",
       highlights: [ "php/smarty", "javascript", "html/css", "mysql", "git", "photoshop", ]
     },
     {
@@ -155,11 +155,11 @@ export const resume: Resume = {
       position: "Software Developer",
       startDate: "2007-08",
       endDate: "2009-11",
-      summary: "My role focused on developing new features for the company's web platforms, while also taking charge of setting up new client systems and efficiently migrating data using MySQL's migration tools. Additionally, I played a key role in building and maintaining the LAMP servers utilized for testing and development purposes, ensuring smooth operations across the board.",
+      summary: "My role focused on developing new features for the company's web platforms, while also taking charge of setting up new client systems and efficiently migrating data using MySQL's migration tools. Additionally, I played a key role in building and maintaining the LAMP servers utilised for testing and development purposes, ensuring smooth operations across the board.",
       highlights: [ "php", "javascript", "html/css", "mysql" ]
     },
     {
-      name: "Better Mortgage. Management",
+      name: "Better Mortgage Management",
       position: "Tech Support / Junior Software Developer",
       startDate: "2006-01",
       endDate: "2007-08",
