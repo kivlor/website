@@ -1,4 +1,4 @@
-// deno-lint-ignore-file no-window
+// deno-lint-ignore-file
 
 import { asset } from "$fresh/runtime.ts";
 
