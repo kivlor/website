@@ -1,4 +1,4 @@
-// deno-lint-ignore-file no-window -- it's assumed this island is loaded in a browser
+// deno-lint-ignore-file no-window
 
 import { asset } from "$fresh/runtime.ts";
 
