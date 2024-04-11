@@ -15,15 +15,17 @@ export default function Resume() {
             <h1 class="mb-1 font-bold font-sans text-2xl">
               {basics.name}
             </h1>
-            
+
             <h2 class="font-mono text-sm text-slate-600 tracking-tight">
               {basics.label}
             </h2>
 
-            <p class="mb-4 font-mono text-xs text-slate-600 tracking-tight">
-              {basics.location.city} {basics.location.region},{' '}
-              {basics.location.countryCode}
-            </p>
+            {basics.location && (
+              <p class="mb-4 font-mono text-xs text-slate-600 tracking-tight">
+                {basics.location.city} {basics.location.region},{" "}
+                {basics.location.countryCode}
+              </p>
+            )}
 
             <nav>
               <p class="font-mono text-xs text-blue-600">
@@ -41,7 +43,11 @@ export default function Resume() {
           </div>
 
           <figure class="w-20 md:w-28 h-20 md:h-28">
-            <img src={asset("/me-and-flash.jpg")} alt={basics.name} class="rounded-lg" />
+            <img
+              src={asset("/me-and-flash.jpg")}
+              alt={basics.name}
+              class="rounded-lg"
+            />
           </figure>
         </div>
       </header>
@@ -67,32 +73,38 @@ export default function Resume() {
             </h4>
 
             <p class="mb-2 font-sans text-base">
-              {job.position} <span class="block md:float-end font-light text-sm text-slate-600">{job.startDate}{job.endDate && ` to ${job.endDate}`}</span>
+              {job.position}{" "}
+              <span class="block md:float-end font-light text-sm text-slate-600">
+                {job.startDate}
+                {job.endDate && ` to ${job.endDate}`}
+              </span>
             </p>
 
             <p class="mb-2 font-mono text-sm text-slate-600 leading-5 tracking-tight">
               {job.summary}
             </p>
 
-            <Keywords keywords={job.highlights} />
+            <Keywords keywords={job.highlights || []} />
           </div>
         ))}
       </section>
 
-      <section class="mb-4 break-inside-avoid">
-        <h3 class="mb-2 font-bold font-sans text-xl">Skills</h3>
+      {skills && (
+        <section class="mb-4 break-inside-avoid">
+          <h3 class="mb-2 font-bold font-sans text-xl">Skills</h3>
 
-        {skills.map((skill) => (
-          <div class="mb-4">
-            <h4 class="mb-2 font-sans text-base">
-              {skill.name}:
-            </h4>
+          {skills.map((skill) => (
+            <div class="mb-4">
+              <h4 class="mb-2 font-sans text-base">
+                {skill.name}:
+              </h4>
 
-            <Keywords keywords={skill.keywords} />
-          </div>
-        ))}
-      </section>
-      
+              <Keywords keywords={skill.keywords || []} />
+            </div>
+          ))}
+        </section>
+      )}
+
       <div class="py-4">
         <PageMenu />
       </div>
