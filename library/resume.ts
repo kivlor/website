@@ -75,8 +75,7 @@ export const resume: Resume = {
   basics: {
     name: "Andrew Gallagher",
     label: "Maker, Coder, Tourist, Geek",
-    summary:
-      `My passion for technology and craftsmanship has naturally led me to a career in software development, specialising in creating scalable web applications that captivate users.`,
+    summary: `My passion for technology and craftsmanship has naturally led me to a career in software development, specialising in creating scalable web applications that captivate users.`,
     email: "hello@kivlor.com",
     url: "http://kivlor.com",
     location: {
@@ -104,10 +103,25 @@ export const resume: Resume = {
   },
   work: [
     {
+      name: "PREVE",
+      position: "Founding Engineer",
+      startDate: "2024-05",
+      endDate: "now",
+      summary:
+        "As a founding engineer at PREVE, I played a pivotal role in building our web application, helping physiotherapy clinics deliver world-class treatment. My primary focus has been developing the payment and subscription engine, leveraging Stripe to ensure seamless and secure transactions. As one of the first employees, I’ve taken on responsibilities ranging from architecture and implementation to collaborating closely with stakeholders to shape the product vision and deliver a scalable solution that meets the needs of modern physiotherapy practices.",
+      highlights: [
+        "typescript/next.js",
+        "postgres/supabase",
+        "docker",
+        "git",
+        "ci/cd",
+      ],
+    },
+    {
       name: "Dubber",
       position: "Technical Lead",
       startDate: "2021-09",
-      endDate: "now",
+      endDate: "2024-05",
       summary:
         "I initially led the integration of the Notiv web app with Dubber's call platform after Notiv was acquired. This required moving deployments to Kubernetes and ingesting AI and call data from Kafka. From there, our team rebranded to Notes and developed an MS Teams app on top of Dubber's MS Teams recorder. I then took on the Tech Lead role for a new team working to move service activation and management into separate micro-services built with .NET and DynamoDB.",
       highlights: [
@@ -236,29 +250,15 @@ export const resume: Resume = {
   ],
   skills: [
     {
-      name: "Development Languages",
+      name: "Software Languages",
       keywords: ["html/css", "javascript/typescript", "lua", "php", "ruby"],
     },
     {
-      name: "Frameworks and Libraries",
-      keywords: [
-        "codeigniter",
-        "expressionengine",
-        "laravel",
-        "react",
-        "ruby on rails",
-        "sinatra",
-        "smarty",
-        "spinejs",
-        "wordpress",
-      ],
-    },
-    {
-      name: "Data Storage",
+      name: "Data / Storage",
       keywords: ["dynamodb", "kafka", "mysql", "postgresql", "redis", "s3"],
     },
     {
-      name: "Infrastructure and Cloud Services",
+      name: "Infrastructure / Cloud Services",
       keywords: [
         "aws ecs",
         "aws lambda",
