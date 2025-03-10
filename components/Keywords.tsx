@@ -1,6 +1,6 @@
 interface KeywordsProps {
   keywords: string[];
-};
+}
 
 export default function Keywords({ keywords }: KeywordsProps) {
   return (
