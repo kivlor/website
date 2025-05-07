@@ -106,13 +106,14 @@ export const resume: Resume = {
       name: "PREVE",
       position: "Founding Engineer",
       startDate: "2024-05",
-      endDate: "now",
+      endDate: "2025-05",
       summary:
         "As a founding engineer at PREVE, I played a pivotal role in building our web application, helping physiotherapy clinics deliver world-class treatment. My primary focus has been developing the payment and subscription engine, leveraging Stripe to ensure seamless and secure transactions. As one of the first employees, I’ve taken on responsibilities ranging from architecture and implementation to collaborating closely with stakeholders to shape the product vision and deliver a scalable solution that meets the needs of modern physiotherapy practices.",
       highlights: [
         "typescript/next.js",
         "postgres/supabase",
-        "docker",
+        "vercel",
+        "inngest",
         "git",
         "ci/cd",
       ],
