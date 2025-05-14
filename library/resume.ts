@@ -75,7 +75,8 @@ export const resume: Resume = {
   basics: {
     name: "Andrew Gallagher",
     label: "Maker, Coder, Tourist, Geek",
-    summary: `Passionate about tech and craftsmanship, I build scalable web apps that captivate users, blending innovation with seamless performance.`,
+    summary:
+      `Passionate about tech and craftsmanship, I build scalable web apps that captivate users, blending innovation with seamless performance.`,
     email: "hello@kivlor.com",
     url: "http://kivlor.com",
     location: {

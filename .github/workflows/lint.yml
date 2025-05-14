@@ -20,4 +20,3 @@ jobs:
 
       - name: Lint codebase
         run: deno lint
-        
