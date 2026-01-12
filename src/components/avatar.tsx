@@ -1,17 +1,12 @@
-import { onCleanup, onMount } from 'solid-js'
+import { createSignal, onMount, type Component } from 'solid-js'
+import { Dynamic } from 'solid-js/web'
 
 export function Avatar() {
-  let container: HTMLDivElement | undefined
-  let teardown: (() => void) | undefined
+  const [Scene, setScene] = createSignal<Component | null>(null)
 
   onMount(async () => {
-    if (!container) return
-    const { mountAvatar } = await import('./avatar-r3f.tsx')
-    teardown = mountAvatar(container)
-  })
-
-  onCleanup(() => {
-    teardown?.()
+    const { AvatarScene } = await import('./avatar-three.tsx')
+    setScene(() => AvatarScene)
   })
 
   return (
@@ -19,14 +14,9 @@ export function Avatar() {
       <figure
         class={`m-auto w-32 md:w-40 h-32 md:h-40 bg-gray-900/90 rounded-full overflow-hidden shadow-xl`}
       >
-        <div
-          ref={(element) => {
-            container = element
-          }}
-          class="h-full w-full"
-          role="img"
-          aria-label="Kivlor 3D avatar"
-        />
+        <div class="h-full w-full" role="img" aria-label="Kivlor 3D avatar">
+          <Dynamic component={Scene() ?? undefined} />
+        </div>
       </figure>
     </div>
   )
