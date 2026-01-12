@@ -1,10 +1,12 @@
+node_modules
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
+dist
+dist-ssr
+*.local
+.env
+.nitro
+.tanstack
+.wrangler
 
-# Fresh build directory
-_fresh/
+# alchemy
+.alchemy
