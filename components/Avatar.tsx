@@ -4,9 +4,13 @@ export default function Avatar() {
   return (
     <div class="pt-12 pb-8">
       <figure
-        class={`m-auto w-32 md:w-40 h-32 md:h-40 bg-gray-300 dark:bg-gray-700 rounded-full`}
+        class="m-auto w-36 md:w-44 h-36 md:h-44"
       >
-        <img src={asset("/avatar.png")} alt="Kivlor" />
+        <img
+          class="w-full h-full"
+          src={asset("/avatar-3d.svg")}
+          alt="Kivlor 3D avatar"
+        />
       </figure>
     </div>
   );
