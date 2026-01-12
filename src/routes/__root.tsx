@@ -1,8 +1,8 @@
 import {
-  createRootRouteWithContext,
   HeadContent,
   Outlet,
   Scripts,
+  createRootRouteWithContext,
 } from '@tanstack/solid-router'
 import { TanStackRouterDevtools } from '@tanstack/solid-router-devtools'
 import { Suspense } from 'solid-js'
