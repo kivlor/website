@@ -1,12 +1,11 @@
 node_modules
-.DS_Store
 dist
 dist-ssr
+.alchemy
 *.local
 .env
 .nitro
 .tanstack
+.vite
 .wrangler
-
-# alchemy
-.alchemy
+.DS_Store
