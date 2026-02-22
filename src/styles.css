@@ -20,3 +20,36 @@ body {
     background-image: none;
   }
 }
+
+.avatar {
+  transform-origin: center bottom;
+  will-change: transform;
+}
+
+.avatar:hover {
+  animation: avatar-bounce 480ms ease-out;
+}
+
+@keyframes avatar-bounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  30% {
+    transform: translateY(-10px) scale(1.02);
+  }
+  60% {
+    transform: translateY(0) scale(0.98);
+  }
+  80% {
+    transform: translateY(-4px) scale(1.01);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .avatar:hover {
+    animation: none;
+  }
+}
