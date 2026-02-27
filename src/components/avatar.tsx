@@ -2,9 +2,9 @@ export function Avatar() {
   return (
     <div class="pt-12 pb-8">
       <figure
-        class={`m-auto w-32 md:w-40 h-32 md:h-40 bg-gray-300 dark:bg-gray-700 rounded-full`}
+        class={`avatar-animated m-auto w-32 md:w-40 h-32 md:h-40 bg-gray-300 dark:bg-gray-700 rounded-full overflow-hidden`}
       >
-        <img src={'/avatar.png'} alt="Kivlor" />
+        <img class="w-full h-full object-cover" src={'/avatar.png'} alt="Kivlor" />
       </figure>
     </div>
   )
